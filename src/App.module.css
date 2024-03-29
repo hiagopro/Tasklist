@@ -1,0 +1,31 @@
+.texttask {
+  color: black;
+  padding: 0;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  width: 75%;
+  word-wrap: break-word;
+  height: 4rem;
+}
+.everytask {
+  display: block;
+  width: 15rem;
+  height: 10rem;
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+main {
+  display: flex;
+  gap: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  flex-wrap: wrap;
+}
+.circleX {
+  flex-direction: column;
+  margin-left: 2.5rem;
+  justify-content: end;
+  margin-top: 1rem;
+}
